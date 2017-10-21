@@ -14,6 +14,7 @@
 		E671A0621F9C059600B97E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E671A0601F9C059600B97E94 /* LaunchScreen.storyboard */; };
 		E671A06D1F9C059600B97E94 /* GenomalityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E671A06C1F9C059600B97E94 /* GenomalityTests.swift */; };
 		E671A0781F9C059600B97E94 /* GenomalityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E671A0771F9C059600B97E94 /* GenomalityUITests.swift */; };
+		E671A0861F9C0B5000B97E94 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E671A0851F9C0B5000B97E94 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E671A0731F9C059600B97E94 /* GenomalityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenomalityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E671A0771F9C059600B97E94 /* GenomalityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenomalityUITests.swift; sourceTree = "<group>"; };
 		E671A0791F9C059600B97E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E671A0851F9C0B5000B97E94 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E671A0571F9C059600B97E94 /* AppDelegate.swift */,
 				E671A0591F9C059600B97E94 /* ViewController.swift */,
+				E671A0851F9C0B5000B97E94 /* User.swift */,
 				E671A05B1F9C059600B97E94 /* Main.storyboard */,
 				E671A05E1F9C059600B97E94 /* Assets.xcassets */,
 				E671A0601F9C059600B97E94 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				E671A05A1F9C059600B97E94 /* ViewController.swift in Sources */,
 				E671A0581F9C059600B97E94 /* AppDelegate.swift in Sources */,
+				E671A0861F9C0B5000B97E94 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
