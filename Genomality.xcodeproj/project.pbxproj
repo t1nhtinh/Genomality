@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71C0D139EE908531A6C8F300 /* Pods_GenomalityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9E19EB6165AB2D3CB0DEDD /* Pods_GenomalityUITests.framework */; };
+		7DB047314C872AFF8B5D8D0D /* Pods_Genomality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A84E090D323F9A944DEB9F6 /* Pods_Genomality.framework */; };
+		C214942E8118CD45C59CE9F1 /* Pods_GenomalityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798F6C70BAA767F2B428ADAF /* Pods_GenomalityTests.framework */; };
 		E671A0581F9C059600B97E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E671A0571F9C059600B97E94 /* AppDelegate.swift */; };
 		E671A05A1F9C059600B97E94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E671A0591F9C059600B97E94 /* ViewController.swift */; };
 		E671A05D1F9C059600B97E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E671A05B1F9C059600B97E94 /* Main.storyboard */; };
@@ -15,6 +18,8 @@
 		E671A06D1F9C059600B97E94 /* GenomalityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E671A06C1F9C059600B97E94 /* GenomalityTests.swift */; };
 		E671A0781F9C059600B97E94 /* GenomalityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E671A0771F9C059600B97E94 /* GenomalityUITests.swift */; };
 		E671A0861F9C0B5000B97E94 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E671A0851F9C0B5000B97E94 /* User.swift */; };
+		E671A08C1F9C1C7D00B97E94 /* phenotypeScores.plist in Resources */ = {isa = PBXBuildFile; fileRef = E671A08B1F9C1C7D00B97E94 /* phenotypeScores.plist */; };
+		E671A08E1F9C2ED200B97E94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E671A08D1F9C2ED200B97E94 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EDAEB240F063C98F186A5B1 /* Pods-GenomalityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenomalityUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenomalityUITests/Pods-GenomalityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		37031EC712676A97D0DE9C6B /* Pods-GenomalityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenomalityUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenomalityUITests/Pods-GenomalityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A9E19EB6165AB2D3CB0DEDD /* Pods_GenomalityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenomalityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4342CA222AC5F2E7424FB236 /* Pods-Genomality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genomality.release.xcconfig"; path = "Pods/Target Support Files/Pods-Genomality/Pods-Genomality.release.xcconfig"; sourceTree = "<group>"; };
+		798F6C70BAA767F2B428ADAF /* Pods_GenomalityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenomalityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A84E090D323F9A944DEB9F6 /* Pods_Genomality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Genomality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ADC14D37520E2EF22CF4E96 /* Pods-GenomalityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenomalityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenomalityTests/Pods-GenomalityTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5659A0959B9107B57E95CE0 /* Pods-GenomalityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenomalityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenomalityTests/Pods-GenomalityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA645F33D93CB0EEA8260807 /* Pods-Genomality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Genomality.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Genomality/Pods-Genomality.debug.xcconfig"; sourceTree = "<group>"; };
 		E671A0541F9C059600B97E94 /* Genomality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Genomality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E671A0571F9C059600B97E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E671A0591F9C059600B97E94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +63,8 @@
 		E671A0771F9C059600B97E94 /* GenomalityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenomalityUITests.swift; sourceTree = "<group>"; };
 		E671A0791F9C059600B97E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E671A0851F9C0B5000B97E94 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E671A08B1F9C1C7D00B97E94 /* phenotypeScores.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = phenotypeScores.plist; sourceTree = "<group>"; };
+		E671A08D1F9C2ED200B97E94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB047314C872AFF8B5D8D0D /* Pods_Genomality.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C214942E8118CD45C59CE9F1 /* Pods_GenomalityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C0D139EE908531A6C8F300 /* Pods_GenomalityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22401AD2D3B3DEB378493AF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A84E090D323F9A944DEB9F6 /* Pods_Genomality.framework */,
+				798F6C70BAA767F2B428ADAF /* Pods_GenomalityTests.framework */,
+				3A9E19EB6165AB2D3CB0DEDD /* Pods_GenomalityUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F3AD67C9C19A7DA9D72BB00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA645F33D93CB0EEA8260807 /* Pods-Genomality.debug.xcconfig */,
+				4342CA222AC5F2E7424FB236 /* Pods-Genomality.release.xcconfig */,
+				B5659A0959B9107B57E95CE0 /* Pods-GenomalityTests.debug.xcconfig */,
+				8ADC14D37520E2EF22CF4E96 /* Pods-GenomalityTests.release.xcconfig */,
+				37031EC712676A97D0DE9C6B /* Pods-GenomalityUITests.debug.xcconfig */,
+				1EDAEB240F063C98F186A5B1 /* Pods-GenomalityUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E671A04B1F9C059600B97E94 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				E671A06B1F9C059600B97E94 /* GenomalityTests */,
 				E671A0761F9C059600B97E94 /* GenomalityUITests */,
 				E671A0551F9C059600B97E94 /* Products */,
+				4F3AD67C9C19A7DA9D72BB00 /* Pods */,
+				22401AD2D3B3DEB378493AF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +143,8 @@
 		E671A0561F9C059600B97E94 /* Genomality */ = {
 			isa = PBXGroup;
 			children = (
+				E671A08D1F9C2ED200B97E94 /* GoogleService-Info.plist */,
+				E671A08B1F9C1C7D00B97E94 /* phenotypeScores.plist */,
 				E671A0571F9C059600B97E94 /* AppDelegate.swift */,
 				E671A0591F9C059600B97E94 /* ViewController.swift */,
 				E671A0851F9C0B5000B97E94 /* User.swift */,
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E671A07C1F9C059600B97E94 /* Build configuration list for PBXNativeTarget "Genomality" */;
 			buildPhases = (
+				3E84BA25B02D811AD43B2B9A /* [CP] Check Pods Manifest.lock */,
 				E671A0501F9C059600B97E94 /* Sources */,
 				E671A0511F9C059600B97E94 /* Frameworks */,
 				E671A0521F9C059600B97E94 /* Resources */,
+				A0F5136CB737C2D7CB23A280 /* [CP] Embed Pods Frameworks */,
+				628241979096A95D77AE1C51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E671A07F1F9C059600B97E94 /* Build configuration list for PBXNativeTarget "GenomalityTests" */;
 			buildPhases = (
+				FFF84C9E9CCB8BF0A67CBEC0 /* [CP] Check Pods Manifest.lock */,
 				E671A0641F9C059600B97E94 /* Sources */,
 				E671A0651F9C059600B97E94 /* Frameworks */,
 				E671A0661F9C059600B97E94 /* Resources */,
+				203F3E9735DAECD2C224ED69 /* [CP] Embed Pods Frameworks */,
+				21D7819730C51FA426F02930 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E671A0821F9C059600B97E94 /* Build configuration list for PBXNativeTarget "GenomalityUITests" */;
 			buildPhases = (
+				EA545CAA16DBAEB167A76BC3 /* [CP] Check Pods Manifest.lock */,
 				E671A06F1F9C059600B97E94 /* Sources */,
 				E671A0701F9C059600B97E94 /* Frameworks */,
 				E671A0711F9C059600B97E94 /* Resources */,
+				CFD0FA5935DBF50F4D91C395 /* [CP] Copy Pods Resources */,
+				43E989AA09437A6A06B89031 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +251,7 @@
 				TargetAttributes = {
 					E671A0531F9C059600B97E94 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GBENDSMEUL;
 						ProvisioningStyle = Automatic;
 					};
 					E671A0671F9C059600B97E94 = {
@@ -237,6 +293,8 @@
 			files = (
 				E671A0621F9C059600B97E94 /* LaunchScreen.storyboard in Resources */,
 				E671A05F1F9C059600B97E94 /* Assets.xcassets in Resources */,
+				E671A08E1F9C2ED200B97E94 /* GoogleService-Info.plist in Resources */,
+				E671A08C1F9C1C7D00B97E94 /* phenotypeScores.plist in Resources */,
 				E671A05D1F9C059600B97E94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +314,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		203F3E9735DAECD2C224ED69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenomalityTests/Pods-GenomalityTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21D7819730C51FA426F02930 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenomalityTests/Pods-GenomalityTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E84BA25B02D811AD43B2B9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Genomality-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43E989AA09437A6A06B89031 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenomalityUITests/Pods-GenomalityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		628241979096A95D77AE1C51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Genomality/Pods-Genomality-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F5136CB737C2D7CB23A280 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Genomality/Pods-Genomality-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Genomality/Pods-Genomality-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFD0FA5935DBF50F4D91C395 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenomalityUITests/Pods-GenomalityUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA545CAA16DBAEB167A76BC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenomalityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFF84C9E9CCB8BF0A67CBEC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenomalityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E671A0501F9C059600B97E94 /* Sources */ = {
@@ -416,30 +626,40 @@
 		};
 		E671A07D1F9C059600B97E94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA645F33D93CB0EEA8260807 /* Pods-Genomality.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GBENDSMEUL;
 				INFOPLIST_FILE = Genomality/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinhdang.Genomality;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		E671A07E1F9C059600B97E94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4342CA222AC5F2E7424FB236 /* Pods-Genomality.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GBENDSMEUL;
 				INFOPLIST_FILE = Genomality/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinhdang.Genomality;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		E671A0801F9C059600B97E94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5659A0959B9107B57E95CE0 /* Pods-GenomalityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +674,7 @@
 		};
 		E671A0811F9C059600B97E94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ADC14D37520E2EF22CF4E96 /* Pods-GenomalityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +689,7 @@
 		};
 		E671A0831F9C059600B97E94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37031EC712676A97D0DE9C6B /* Pods-GenomalityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GenomalityUITests/Info.plist;
@@ -481,6 +703,7 @@
 		};
 		E671A0841F9C059600B97E94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDAEB240F063C98F186A5B1 /* Pods-GenomalityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GenomalityUITests/Info.plist;
@@ -511,6 +734,7 @@
 				E671A07E1F9C059600B97E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E671A07F1F9C059600B97E94 /* Build configuration list for PBXNativeTarget "GenomalityTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +743,7 @@
 				E671A0811F9C059600B97E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E671A0821F9C059600B97E94 /* Build configuration list for PBXNativeTarget "GenomalityUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +752,7 @@
 				E671A0841F9C059600B97E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

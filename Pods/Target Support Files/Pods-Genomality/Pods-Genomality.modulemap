@@ -1,0 +1,6 @@
+framework module Pods_Genomality {
+  umbrella header "Pods-Genomality-umbrella.h"
+
+  export *
+  module * { export * }
+}
