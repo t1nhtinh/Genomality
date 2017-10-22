@@ -9,15 +9,15 @@
 import UIKit
 
 class User {
+    
     var name: String
     var phenoTypeScore: Int
+    var matches: [NSDictionary]?
     
-    
-    
-    init(name: String, phenoTypeScore: Int) {
+    init(name: String, phenoTypeScore: Int, matches: [NSDictionary]) {
         self.name = name
         self.phenoTypeScore = phenoTypeScore
-        
+        self.matches = matches
     }
     
 }
